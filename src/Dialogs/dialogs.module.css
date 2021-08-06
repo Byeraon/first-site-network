@@ -1,0 +1,92 @@
+.dialog_page {
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 4;
+    width: 100%;
+    min-height: 60vh;
+    box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    max-width: 60vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10.8vh;
+    justify-content: space-around;
+}
+
+.dialog_items {
+    display: flex;
+    width: 30%;
+    border-top: white 2px solid;
+    border-right: white 2px solid;
+    flex-direction: column;
+}
+
+.dialog_items .active {
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.dialog {
+    border: white 2px solid;
+    width: 80%;
+    border-radius: 24px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    vertical-align:bottom;
+    text-decoration: none;
+}
+
+.dialog:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+
+.message_items {
+    width: 70%;
+    border-top: white 2px solid;
+}
+
+.message {
+    text-align: left;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    height: min-content;
+}
+
+textarea {
+    
+    float:left;
+    width: 90%;
+    outline: none;
+    border: white 2px solid;
+    border-radius: 12px;
+    height: 50px;
+    resize:vertical;
+    padding: 20px;
+    margin-top: 5%;
+
+}
+
+button {
+    margin-top: auto;
+    height: 90px;
+}
+
+.sending_place {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}

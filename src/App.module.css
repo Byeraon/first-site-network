@@ -1,0 +1,31 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+body {
+  font-family: "Rubik",sans-serif;
+  position: relative;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url(./background.jpg) no-repeat center center;
+  background-size: cover;
+}
+.content {
+  position: relative;
+    width: 100vw;
+    height: 100vh;
+}

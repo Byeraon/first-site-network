@@ -1,0 +1,18 @@
+.post {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.avaman {
+    margin-bottom: 5px;
+    z-index: 20;
+        height: 20px;
+        width: 20px;
+        background: url(/src/boy.png) no-repeat center center;
+        background-size: cover;
+        margin-right: 5px;
+    
+}
+
